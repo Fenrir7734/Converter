@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="375.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.MainController">
+    <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="350.0">
+        <Menu fx:id="menu" mnemonicParsing="false" text="File">
+            <MenuItem fx:id="author" mnemonicParsing="false" onAction="#author" text="Author" />
+            <MenuItem fx:id="close" mnemonicParsing="false" onAction="#close" text="Close" />
+        </Menu>
+        <Menu fx:id="history" mnemonicParsing="false" onAction="#history" text="History">
+            <MenuItem mnemonicParsing="false" text="History" />
+        </Menu>
+    </MenuBar>
+    <Button fx:id="numberSystemConverterButton" layoutY="27.0" mnemonicParsing="false" onAction="#loadSystemConverter" prefHeight="25.0" prefWidth="175.0" text="Number System converter" />
+    <Button fx:id="unitConverterButton" layoutX="175.0" layoutY="27.0" mnemonicParsing="false" onAction="#loadUnitConverter" prefHeight="25.0" prefWidth="175.0" text="Unit converter" />
+</AnchorPane>

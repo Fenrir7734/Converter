@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.UnitConverterController">
+    <VBox alignment="CENTER_RIGHT" prefHeight="350.0" prefWidth="350.0">
+        <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="180.0">
+            <VBox.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </VBox.margin>
+            <Label prefHeight="20.0" prefWidth="90.0" text="From unit" textAlignment="RIGHT">
+                <font>
+                    <Font name="System Bold" size="12.0" />
+                </font>
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin>
+            </Label>
+            <ChoiceBox fx:id="fromUnitChoiceBox" prefWidth="150.0" />
+        </HBox>
+        <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="180.0">
+            <VBox.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </VBox.margin>
+            <Label prefHeight="20.0" prefWidth="90.0" text="To unit" textAlignment="RIGHT">
+                <font>
+                    <Font name="System Bold" size="12.0" />
+                </font>
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin>
+            </Label>
+            <ChoiceBox fx:id="toUnitChoiceBox" prefWidth="150.0" />
+        </HBox>
+        <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="180.0">
+            <VBox.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </VBox.margin>
+            <Label prefHeight="20.0" prefWidth="90.0" text="Number" textAlignment="RIGHT">
+                <font>
+                    <Font name="System Bold" size="12.0" />
+                </font>
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin>
+            </Label>
+            <TextField fx:id="numberTextField" prefHeight="20.0" prefWidth="150.0" />
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="40.0" prefWidth="180.0">
+            <VBox.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </VBox.margin>
+            <Button fx:id="calculateButton" mnemonicParsing="false" onAction="#pressButton" text="Calculate" />
+        </HBox>
+        <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="180.0">
+            <VBox.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </VBox.margin>
+            <Label prefHeight="20.0" prefWidth="90.0" text="Result" textAlignment="RIGHT">
+                <font>
+                    <Font name="System Bold" size="12.0" />
+                </font>
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin>
+            </Label>
+            <TextField fx:id="resultTextField" prefHeight="20.0" prefWidth="150.0" />
+        </HBox>
+    </VBox>
+    <ChoiceBox fx:id="categoryChoiceBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="350.0" />
+</AnchorPane>
