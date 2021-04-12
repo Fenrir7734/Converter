@@ -1,4 +1,4 @@
-package org.example.units;
+package com.fenrir.units;
 
 import java.math.BigDecimal;
 import java.math.MathContext;

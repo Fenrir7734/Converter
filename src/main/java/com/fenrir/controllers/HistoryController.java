@@ -1,4 +1,4 @@
-package org.example.controllers;
+package com.fenrir.controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -7,7 +7,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.input.Clipboard;
 import javafx.scene.input.ClipboardContent;
-import org.example.converter.ConversionHistory;
+import com.fenrir.converter.ConversionHistory;
 
 public class HistoryController {
 

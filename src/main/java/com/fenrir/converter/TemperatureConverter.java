@@ -1,6 +1,6 @@
-package org.example.converter;
+package com.fenrir.converter;
 
-import org.example.units.Unit;
+import com.fenrir.units.Unit;
 
 import java.math.BigDecimal;
 

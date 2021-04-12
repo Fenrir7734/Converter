@@ -12,7 +12,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0"
             prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="org.example.controllers.ConverterController">
+            fx:controller="com.fenrir.controllers.ConverterController">
     <VBox alignment="CENTER_RIGHT" prefHeight="350.0" prefWidth="350.0">
         <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="180.0">
             <VBox.margin>

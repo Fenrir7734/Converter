@@ -1,7 +1,10 @@
-package org.example.controllers;
+package com.fenrir.controllers;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
+import com.fenrir.converter.TemperatureConverter;
+import com.fenrir.converter.UnitConverter;
+import com.fenrir.units.Unit;
+import com.fenrir.units.Units;
+import com.fenrir.units.UnitsCategory;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -9,12 +12,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextField;
-import org.example.converter.Converter;
-import org.example.converter.TemperatureConverter;
-import org.example.converter.UnitConverter;
-import org.example.units.Unit;
-import org.example.units.Units;
-import org.example.units.UnitsCategory;
+import com.fenrir.converter.Converter;
 
 import java.math.BigDecimal;
 import java.net.URL;

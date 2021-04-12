@@ -1,7 +1,7 @@
-package org.example.converter;
+package com.fenrir.converter;
 
 
-import org.example.units.Unit;
+import com.fenrir.units.Unit;
 
 public class UnitConverter extends Converter{
 

@@ -1,5 +1,6 @@
-package org.example.controllers;
+package com.fenrir.controllers;
 
+import com.fenrir.converter.NumberSystemConverter;
 import javafx.event.ActionEvent;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -8,7 +9,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextField;
-import org.example.converter.NumberSystemConverter;
 
 public class ConverterController {
     private final ObservableList<Integer> systems = FXCollections.observableArrayList();

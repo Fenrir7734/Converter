@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="375.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.MainController">
+<AnchorPane prefHeight="375.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fenrir.controllers.MainController">
     <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="350.0">
         <Menu fx:id="menu" mnemonicParsing="false" text="File">
             <MenuItem fx:id="author" mnemonicParsing="false" onAction="#author" text="Author" />

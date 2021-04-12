@@ -1,4 +1,4 @@
-package org.example.controllers;
+package com.fenrir.controllers;
 
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -109,11 +109,6 @@ public class MainController extends Application {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
-    }
-
-
-    public static void main(String[] args) {
-        launch(MainController.class);
     }
 
 }
