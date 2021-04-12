@@ -1,6 +1,5 @@
 package com.fenrir;
 
-
 import com.fenrir.controllers.MainController;
 
 import static javafx.application.Application.launch;
